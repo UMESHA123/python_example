@@ -1,0 +1,9 @@
+str1 = "NAINA"
+str2 = "REENE"
+
+heap = []
+for letter in str1:
+    if letter  in str2:
+        if letter not in heap: heap.append(letter)
+        
+print(heap)
